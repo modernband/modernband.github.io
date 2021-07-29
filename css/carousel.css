@@ -88,6 +88,10 @@ body {
     font-size: 1.25rem;
     line-height: 1.4;
   }
+  
+    .carousel-item > img {
+      height: 27rem;
+    }
 
   .featurette-heading {
     font-size: 50px;
