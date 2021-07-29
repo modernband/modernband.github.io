@@ -8,6 +8,10 @@ body {
   color: #5a5a5a;
 }
 
+.form-group {
+  padding: 12px 0;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
