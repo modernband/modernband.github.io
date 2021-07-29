@@ -110,26 +110,31 @@
       <div class="col-md-7">
         <h2 class="featurette-heading">Interested? <span class="text-muted">Let us know which class suits you best...</span></h2>
         <form class="kwes-form" action="https://kwes.io/api/foreign/forms/Rc6LF07UrcDrg7gaRNMI"> 
-            <label for="name">Your Name</label> 
-              <input type="text" name="name"> 
-          
+          <div class="form-group">  
+          <label for="name">Your Name</label> 
+              <input type="text" name="name" class="form-control"> 
+          </div>
+          <div class="form-group">
           <label for="phone">Phone</label> 
-              <input type="text" name="phone">
-          
+              <input type="text" name="phone" class="form-control">
+          </div>
+          <div class="form-group">
           <label for="email">Email</label> 
-              <input type="text" name="email">
-          
+              <input type="text" name="email" class="form-control">
+          </div>
+          <div class="form-group">
           <label for="instrument_choice">Which instrument are you interested in?</label> 
-              <select name="instrument_choice">
+              <select name="instrument_choice" class="form-control">
                 <option value="guitar">Electric Guitar</option>
                 <option value="piano">Piano/Keyboard/Synth</option>
                 <option value="drums">Drumset</option>
                 <option value="rap">Rap</option>
                 <option value="orchestra">Rock Orchestra</option>
           </select>
-          
+          </div>
+          <div class="form-group">
           <label for="class_choice">Which class are you interested in?</label> 
-              <select name="class_choice">
+              <select name="class_choice" class="form-control">
                 <option value="beginner_10_11">Beginners, 10-11 years old</option>
                 <option value="beginner_12_13">Beginners, 12-13 years old</option>
                 <option value="beginner_14">Beginners, 14+ years old</option>
@@ -138,8 +143,9 @@
                 <option value="beginner_rap">Beginner Rap, 12+ years old</option>
                 <option value="adult">Adult Beginners and Intermediates</option>
               </select>
+          </div>
 
-              <button type="submit">Submit</button> 
+              <button type="submit" class="btn btn-primary">Submit</button> 
         </form>
       </div>
       <div class="col-md-5">
