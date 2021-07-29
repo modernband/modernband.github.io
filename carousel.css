@@ -12,6 +12,10 @@ body {
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
+#myCarousel > div.carousel-inner > div > img {
+ visibility: hidden; 
+}
+
 /* Carousel base class */
 .carousel {
   margin-bottom: 4rem;
@@ -79,6 +83,10 @@ body {
     margin-bottom: 1.25rem;
     font-size: 1.25rem;
     line-height: 1.4;
+  }
+  
+  #myCarousel > div.carousel-inner > div > img {
+    visibility: visible;
   }
 
   .featurette-heading {
