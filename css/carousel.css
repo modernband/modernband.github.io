@@ -8,6 +8,10 @@ body {
   color: #5a5a5a;
 }
 
+body #navbar {
+ color: #efefef; 
+}
+
 .form-group {
   padding: 12px 0;
   display: block;
