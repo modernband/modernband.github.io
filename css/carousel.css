@@ -20,6 +20,10 @@ body .navbar {
   line-height: 1.5;
 }
 
+.img_col {
+  text-align:center;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
