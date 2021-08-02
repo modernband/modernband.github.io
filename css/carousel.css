@@ -10,6 +10,7 @@ body {
 
 body .navbar {
  color: #efefef; 
+  text-align:center;
 }
 
 .form-group {
